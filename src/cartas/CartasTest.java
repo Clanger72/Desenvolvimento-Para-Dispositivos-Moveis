@@ -4,7 +4,6 @@ public class CartasTest {
     public static void main(String[] args){
         Baralho b = new Baralho();
         b.embaralhar();
-
         boolean baralhoNovo = true;
 
         while(baralhoNovo){

@@ -1,7 +1,6 @@
 package cartas;
 
 public class Carta {
-
     private String naipe;
     private String valor;
 

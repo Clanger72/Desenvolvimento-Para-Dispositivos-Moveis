@@ -38,10 +38,12 @@ public class Baralho{
     }
 
     public Carta distribuir(){
+
         if(monte.isEmpty()){
             throw new IndexOutOfBoundsException("O baralho está vazio.");
         }
         return monte.get(cartaAtual++);
+
     }
 
 }
