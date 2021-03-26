@@ -33,4 +33,14 @@ public class Fatura {
         return preco * quantidade;
     }
 
+    @Override
+    public String toString() {
+        return "Fatura{" +
+                "codigo='" + codigo + '\'' +
+                ", descricao='" + descricao + '\'' +
+                ", quantidade=" + quantidade +
+                ", preco=" + preco +
+                '}';
+    }
+
 }
